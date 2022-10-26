@@ -769,6 +769,7 @@ drawbar(Monitor *m)
 
 		if (masterclientontag[i])
 			snprintf(tagdisp, 64, ptagf, tags[i], masterclientontag[i]);
+			/* snprintf(tagdisp, 64, ptagf, tags[i], masterclientontag[i]); */
 		else
 			snprintf(tagdisp, 64, etagf, tags[i]);
 		masterclientontag[i] = tagdisp;
